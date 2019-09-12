@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const JackfruitPage = () => (
   <Layout>
-    <SEO title="Mango" />
+    <SEO title="Jackfruit" />
     <h1>Jackfruit</h1>
     <p>Jackfruits can be found all over the world!</p>
     <Link to="/">Home</Link>

@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const LonganPage = () => (
   <Layout>
-    <SEO title="Mango" />
+    <SEO title="Longan" />
     <h1>Longan</h1>
     <p>Longans can be found all over the world!</p>
     <Link to="/">Home</Link>

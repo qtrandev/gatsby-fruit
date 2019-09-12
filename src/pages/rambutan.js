@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const RambutanPage = () => (
   <Layout>
-    <SEO title="Mango" />
+    <SEO title="Rambutan" />
     <h1>Rambutan</h1>
     <p>Rambutans can be found all over the world!</p>
     <Link to="/">Home</Link>
