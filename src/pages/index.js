@@ -11,7 +11,7 @@ const IndexPage = () => (
     <h1>Fruits</h1>
     <p>We show you all the exotic fruits and not so exotic ones.</p>
     <p>Go enjoy the fruits.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div style={{ maxWidth: `800px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
     <Link to="/about/">About</Link>

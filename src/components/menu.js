@@ -9,7 +9,8 @@ const Menu = () => (
     <ul style={{
       listStyleType: 'none',
       display: 'flex',
-      justifyContent: 'space-evenly'
+      justifyContent: 'space-evenly',
+      textTransform: 'uppercase'
     }}>
       <li><Link to="/">Home</Link></li>
       <li><Link to="/mango">Mango</Link></li>
