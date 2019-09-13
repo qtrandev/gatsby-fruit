@@ -44,9 +44,22 @@ a {
   text-decoration: none;
   -webkit-text-decoration-skip: objects;
 }
-a:active,
+a:active {
+  color: red;
+}
 a:hover {
+  color: black;
   outline-width: 0;
+}
+a:visited {
+  color: blue;
+}
+a:visited:hover {
+  color: black;
+  outline-width: 0;
+}
+a:visited:active {
+  color: red;
 }
 abbr[title] {
   border-bottom: none;
