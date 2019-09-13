@@ -10,8 +10,8 @@ const LonganPage = () => (
     <SEO title="Longan" />
     <h1>Longan</h1>
     <ImageLongan />
-    <p>Longans can be found all over the world!</p>
-    <Link to="/">Home</Link>
+    <br />
+    <p>Longans are a delicous treat in many cultures!</p>
   </Layout>
 )
 

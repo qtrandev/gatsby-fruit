@@ -10,8 +10,8 @@ const JackfruitPage = () => (
     <SEO title="Jackfruit" />
     <h1>Jackfruit</h1>
     <ImageJackfruit />
-    <p>Jackfruits can be found all over the world!</p>
-    <Link to="/">Home</Link>
+    <br />
+    <p>Jackfruits are found in many tropical areas!</p>
   </Layout>
 )
 

@@ -10,8 +10,8 @@ const SugarapplePage = () => (
     <SEO title="Sugar-apple" />
     <h1>Sugar-apple</h1>
     <ImageSugarapple />
-    <p>Sugar-apples can be found all over the world!</p>
-    <Link to="/">Home</Link>
+    <br />
+    <p>Sugar-apples are sweet and are also called custard apples!</p>
   </Layout>
 )
 

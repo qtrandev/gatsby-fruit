@@ -10,8 +10,10 @@ const MangoPage = () => (
     <SEO title="Mango" />
     <h1>Mango</h1>
     <ImageMango />
-    <p>Mangoes can be found all over the world!</p>
-    <Link to="/">Home</Link>
+    <br />
+    <p>Mangoes can be found all over the world and have over 500 varieties!</p>
+    <p>All mango varieties can be found 
+      <a alt="Wikipedia mango cultivars" href="https://en.wikipedia.org/wiki/List_of_mango_cultivars"> here</a>.</p>
   </Layout>
 )
 
