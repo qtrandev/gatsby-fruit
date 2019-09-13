@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -22,7 +21,7 @@ const SugarapplePage = () => (
       <li>Brazillian Seedless</li>
     </ul>
 
-    <p><a target="_blank" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Sugar-apple">More info</a></p>
+    <p><a target="_blank" rel="noopener noreferrer" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Sugar-apple">More info</a></p>
   </Layout>
 )
 
