@@ -11,6 +11,7 @@ const Menu = () => (
       display: 'flex',
       justifyContent: 'space-evenly'
     }}>
+      <li><Link to="/">Home</Link></li>
       <li><Link to="/mango">Mango</Link></li>
       <li><Link to="/jackfruit">Jackfruit</Link></li>
       <li><Link to="/longan">Longan</Link></li>

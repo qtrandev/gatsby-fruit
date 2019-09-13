@@ -3,11 +3,13 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ImageSugarapple from "../components/imageSugarapple"
 
 const SugarapplePage = () => (
   <Layout>
     <SEO title="Sugar-apple" />
     <h1>Sugar-apple</h1>
+    <ImageSugarapple />
     <p>Sugar-apples can be found all over the world!</p>
     <Link to="/">Home</Link>
   </Layout>
