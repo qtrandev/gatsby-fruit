@@ -10,7 +10,8 @@ const Menu = () => (
       listStyleType: 'none',
       display: 'flex',
       justifyContent: 'space-evenly',
-      textTransform: 'uppercase'
+      textTransform: 'uppercase',
+      flexWrap: 'wrap'
     }}>
       <li><Link to="/">Home</Link></li>
       <li><Link to="/mango">Mango</Link></li>
