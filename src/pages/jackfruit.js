@@ -17,11 +17,16 @@ const JackfruitPage = () => (
     <ul>
       <li>Black Gold</li>
       <li>Chenna</li>
+      <li>Chompa Gob</li>
       <li>Cochin</li>
       <li>Dang Rasimi</li>
       <li>Golden Nugget</li>
       <li>Honey Gold</li>
       <li>Lemon Gold</li>
+      <li>Kun Wi Chan</li>
+      <li>J-30</li>
+      <li>J-31</li>
+      <li>NS1</li>
       <li>Tabouy</li>
       <li>Varaka</li>
     </ul>

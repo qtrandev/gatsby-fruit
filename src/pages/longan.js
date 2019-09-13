@@ -17,15 +17,20 @@ const LonganPage = () => (
     <ul>
       <li>Pon Yai</li>
       <li>Kohala</li>
-      <li>Edau</li>
-      <li>Beau Kaew</li>
+      <li>Edau (EDAW)</li>
+      <li>Champoo (Chompoo)</li>
+      <li>Beau Kaew (Biew Kiew)</li>
       <li>Wong’s Special</li>
       <li>Seymour</li>
+      <li>Degelman</li>
       <li>Tigers eye</li>
+      <li>Diamond River</li>
+      <li>Berlian</li>
+      <li>Kay Sweeney</li>
       <li>Big leaf</li>
       <li>Seedling</li>
     </ul>
-    
+
     <p><a target="_blank" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Longan">More info</a></p>
   </Layout>
 )
