@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import DynamicImage from "../components/imageDynamic"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -11,9 +11,8 @@ const IndexPage = () => (
     <h1>Fruits</h1>
     <p>We show you all the exotic fruits and not so exotic ones.</p>
     <p>Go enjoy the fruits.</p>
-    <div style={{ maxWidth: `800px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    <DynamicImage alt="Mango spread" filename="mangospread.jpg" />
+    <br />
     <h2>Fruits Covered: </h2>
     <ul>
       <li><Link to="/mango">Mango</Link></li>
