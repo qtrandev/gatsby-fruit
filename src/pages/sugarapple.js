@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import ImageSugarapple from "../components/imageSugarapple"
 
 const SugarapplePage = () => (
@@ -20,10 +20,10 @@ const SugarapplePage = () => (
       <li>Brazillian Seedless</li>
     </ul>
 
-    <p><a target="_blank" rel="noopener noreferrer" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Sugar-apple">More info</a></p>
+    <p><a className="btn btn-more-info" target="_blank" rel="noopener noreferrer" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Sugar-apple">More info</a></p>
   </Layout>
 )
 
-export const Head = () => <SEO title="Sugar-apple" />
+export const Head = () => <Seo title="Sugar-apple" />
 
 export default SugarapplePage

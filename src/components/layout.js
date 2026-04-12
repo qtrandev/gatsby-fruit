@@ -38,8 +38,8 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          <Link to="/">Home </Link>
+        <footer className="site-footer">
+          <Link to="/">Home</Link>
         </footer>
       </div>
     </>

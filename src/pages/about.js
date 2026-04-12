@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const AboutPage = () => (
   <Layout>
@@ -18,6 +18,6 @@ const AboutPage = () => (
   </Layout>
 )
 
-export const Head = () => <SEO title="About" />
+export const Head = () => <Seo title="About" />
 
 export default AboutPage

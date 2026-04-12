@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import DynamicImage from "../components/imageDynamic"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
@@ -13,17 +13,17 @@ const IndexPage = () => (
     <DynamicImage alt="Mango spread" filename="mangospread.jpg" />
     <br />
     <h2>Fruits Covered: </h2>
-    <ul>
-      <li><Link to="/mango">Mango</Link></li>
-      <li><Link to="/jackfruit">Jackfruit</Link></li>
-      <li><Link to="/longan">Longan</Link></li>
-      <li><Link to="/rambutan">Rambutan</Link></li>
-      <li><Link to="/sugarapple">Sugar-apple</Link></li>
+    <ul className="fruit-list">
+      <li><Link className="btn btn-primary" to="/mango">Mango</Link></li>
+      <li><Link className="btn btn-primary" to="/jackfruit">Jackfruit</Link></li>
+      <li><Link className="btn btn-primary" to="/longan">Longan</Link></li>
+      <li><Link className="btn btn-primary" to="/rambutan">Rambutan</Link></li>
+      <li><Link className="btn btn-primary" to="/sugarapple">Sugar-apple</Link></li>
     </ul>
-    <Link to="/about">About</Link>
+    <Link className="btn btn-primary" to="/about">About</Link>
   </Layout>
 )
 
-export const Head = () => <SEO title="Home" />
+export const Head = () => <Seo title="Home" />
 
 export default IndexPage

@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import ImageRambutan from "../components/imageRambutan"
 
 const RambutanPage = () => (
@@ -29,10 +29,10 @@ const RambutanPage = () => (
       <li>Ayer Mas</li>
     </ul>
 
-    <p><a target="_blank" rel="noopener noreferrer" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Rambutan">More info</a></p>
+    <p><a className="btn btn-more-info" target="_blank" rel="noopener noreferrer" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Rambutan">More info</a></p>
   </Layout>
 )
 
-export const Head = () => <SEO title="Rambutan" />
+export const Head = () => <Seo title="Rambutan" />
 
 export default RambutanPage

@@ -634,3 +634,164 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+/* ── Fruit Theme ─────────────────────────────────────────── */
+
+body {
+  background-color: #fffef7;
+}
+
+/* Global link colours */
+a {
+  color: #e65100;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #bf360c;
+  text-decoration: underline;
+  outline-width: 0;
+}
+a:visited {
+  color: #6a1a00;
+}
+a:visited:hover {
+  color: #bf360c;
+  outline-width: 0;
+}
+a:active,
+a:visited:active {
+  color: #bf360c;
+}
+
+/* Navigation bar */
+.fruit-nav {
+  background: linear-gradient(135deg, #43a047, #1b5e20);
+  padding: 0.4rem 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.fruit-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0.25rem 0;
+  gap: 0.4rem;
+}
+.fruit-nav li {
+  margin-bottom: 0;
+}
+.fruit-nav a,
+.fruit-nav a:visited {
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #1b5e20;
+  background: linear-gradient(180deg, #f1f8e9 0%, #dcedc8 100%);
+  border: 1px solid #a5d6a7;
+  text-decoration: none;
+  padding: 0.35rem 0.9rem;
+  border-radius: 7px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.18), inset 0 1px 0 rgba(255,255,255,0.7);
+  transition: background 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+  user-select: none;
+}
+.fruit-nav a:hover,
+.fruit-nav a:visited:hover {
+  background: linear-gradient(180deg, #ffffff 0%, #f1f8e9 100%);
+  color: #1b5e20;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.24), inset 0 1px 0 rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.fruit-nav a:active {
+  transform: scale(0.97);
+  box-shadow: none;
+}
+
+/* Fruit list on home page — layout only, links styled by .btn.btn-primary */
+.fruit-list {
+  list-style: none;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding: 0;
+}
+.fruit-list li {
+  margin-bottom: 0;
+}
+
+/* macOS-style buttons */
+.btn,
+.btn:visited {
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding: 0.45rem 1.2rem;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+  user-select: none;
+}
+.btn:active {
+  transform: scale(0.97);
+  box-shadow: none !important;
+}
+
+/* Primary — green, for internal nav like About */
+.btn-primary,
+.btn-primary:visited {
+  background: linear-gradient(180deg, #4caf50 0%, #388e3c 100%);
+  color: #ffffff;
+  border-color: #2e7d32;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.22), inset 0 1px 0 rgba(255,255,255,0.18);
+}
+.btn-primary:hover,
+.btn-primary:visited:hover {
+  background: linear-gradient(180deg, #57bb5b 0%, #43a047 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.28), inset 0 1px 0 rgba(255,255,255,0.18);
+  text-decoration: none;
+}
+
+/* Secondary — orange, for external "More info" links */
+.btn-more-info,
+.btn-more-info:visited {
+  background: linear-gradient(180deg, #fb8c00 0%, #e65100 100%);
+  color: #ffffff;
+  border-color: #bf360c;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.22), inset 0 1px 0 rgba(255,255,255,0.18);
+}
+.btn-more-info:hover,
+.btn-more-info:visited:hover {
+  background: linear-gradient(180deg, #ffa726 0%, #f57c00 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.28), inset 0 1px 0 rgba(255,255,255,0.18);
+  text-decoration: none;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 2px solid #e8f5e9;
+  text-align: center;
+}
+.site-footer a,
+.site-footer a:visited {
+  color: #2e7d32;
+  font-weight: bold;
+  text-decoration: none;
+}
+.site-footer a:hover,
+.site-footer a:visited:hover {
+  color: #1b5e20;
+  text-decoration: underline;
+}

@@ -2,17 +2,8 @@ import React from 'react'
 import { Link } from "gatsby"
 
 const Menu = () => (
-  <div style={{
-    background: 'lightgreen',
-    paddingTop: '10px',
-  }}>
-    <ul style={{
-      listStyleType: 'none',
-      display: 'flex',
-      justifyContent: 'space-evenly',
-      textTransform: 'uppercase',
-      flexWrap: 'wrap'
-    }}>
+  <div className="fruit-nav">
+    <ul>
       <li><Link to="/">Home</Link></li>
       <li><Link to="/mango">Mango</Link></li>
       <li><Link to="/jackfruit">Jackfruit</Link></li>

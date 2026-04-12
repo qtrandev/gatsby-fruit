@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import ImageMango from "../components/imageMango"
 
 const MangoPage = () => (
@@ -56,10 +56,10 @@ const MangoPage = () => (
       <li>Common</li>
     </ul>
 
-    <p><a target="_blank" rel="noopener noreferrer" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Mango">More info</a></p>
+    <p><a className="btn btn-more-info" target="_blank" rel="noopener noreferrer" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Mango">More info</a></p>
   </Layout>
 )
 
-export const Head = () => <SEO title="Mango" />
+export const Head = () => <Seo title="Mango" />
 
 export default MangoPage
