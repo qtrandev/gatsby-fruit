@@ -6,7 +6,7 @@ import ImageMango from "../components/imageMango"
 
 const MangoPage = () => (
   <Layout>
-    <h1>Mango</h1>
+    <h1 className="fruit-mango">Mango</h1>
     <ImageMango />
     <br />
     <p>Mangoes can be found all over the world and have over 500 varieties!</p>

@@ -6,7 +6,7 @@ import ImageRambutan from "../components/imageRambutan"
 
 const RambutanPage = () => (
   <Layout>
-    <h1>Rambutan</h1>
+    <h1 className="fruit-rambutan">Rambutan</h1>
     <ImageRambutan />
     <br />
     <p>Rambutans are most prevalent in southeast Asian countries! There are over 200 cultivars of rambutans</p>

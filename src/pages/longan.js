@@ -6,7 +6,7 @@ import ImageLongan from "../components/imageLongan"
 
 const LonganPage = () => (
   <Layout>
-    <h1>Longan</h1>
+    <h1 className="fruit-longan">Longan</h1>
     <ImageLongan />
     <br />
     <p>Longans are a delicous treat in many cultures!</p>

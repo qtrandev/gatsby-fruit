@@ -6,7 +6,7 @@ import ImageJackfruit from "../components/imageJackfruit"
 
 const JackfruitPage = () => (
   <Layout>
-    <h1>Jackfruit</h1>
+    <h1 className="fruit-jackfruit">Jackfruit</h1>
     <ImageJackfruit />
     <br />
     <p>Jackfruits are found in many tropical areas!</p>

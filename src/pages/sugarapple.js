@@ -6,7 +6,7 @@ import ImageSugarapple from "../components/imageSugarapple"
 
 const SugarapplePage = () => (
   <Layout>
-    <h1>Sugar-apple</h1>
+    <h1 className="fruit-sugarapple">Sugar-apple</h1>
     <ImageSugarapple />
     <br />
     <p>Sugar-apples are sweet and are also called custard apples!</p>

@@ -637,6 +637,8 @@ pre tt:after {
 
 /* ── Fruit Theme ─────────────────────────────────────────── */
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@800&display=swap');
+
 body {
   background-color: #fffef7;
 }
@@ -661,6 +663,94 @@ a:visited:hover {
 a:active,
 a:visited:active {
   color: #bf360c;
+}
+
+/* Header — Hawaiian / tropical */
+.site-header {
+  background: linear-gradient(120deg, #264653 0%, #2a9d8f 35%, #e9c46a 70%, #f4a261 100%);
+  margin-bottom: 0;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.32);
+}
+.site-title {
+  margin: 0;
+}
+.site-title-link,
+.site-title-link:visited {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: #fff9e6;
+  text-shadow:
+    0 2px 8px rgba(0,0,0,0.4),
+    0 0 32px rgba(255,200,80,0.45);
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+.site-title-link:hover,
+.site-title-link:visited:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Page headings — Raleway 800, fruit-specific gradient per page */
+main h1 {
+  font-family: 'Raleway', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.4rem;
+  padding-bottom: 0.3rem;
+  text-shadow: none;
+  /* default gradient for non-fruit pages (About, 404, Home) */
+  background: linear-gradient(120deg, #264653 0%, #2a9d8f 45%, #e9c46a 80%, #f4a261 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Mango — deep orange → amber → golden */
+.fruit-mango {
+  background: linear-gradient(120deg, #bf360c 0%, #f57c00 50%, #ffd54f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 3px 5px rgba(191, 54, 12, 0.28));
+}
+
+/* Jackfruit — deep jungle green → lime → golden yellow */
+.fruit-jackfruit {
+  background: linear-gradient(120deg, #33691e 0%, #8bc34a 55%, #f9a825 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 3px 5px rgba(51, 105, 30, 0.28));
+}
+
+/* Longan — dark brown shell → tan → warm pearl gold */
+.fruit-longan {
+  background: linear-gradient(120deg, #4e342e 0%, #bc8f5f 55%, #e8c97a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 3px 5px rgba(78, 52, 46, 0.28));
+}
+
+/* Rambutan — deep crimson → vivid red → coral */
+.fruit-rambutan {
+  background: linear-gradient(120deg, #880e4f 0%, #d32f2f 50%, #ff7043 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 3px 5px rgba(136, 14, 79, 0.28));
+}
+
+/* Sugar-apple — deep forest green → mid green → pale mint cream */
+.fruit-sugarapple {
+  background: linear-gradient(120deg, #1b5e20 0%, #43a047 55%, #c8e6c9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 3px 5px rgba(27, 94, 32, 0.28));
 }
 
 /* Navigation bar */
