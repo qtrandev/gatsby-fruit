@@ -6,7 +6,6 @@ import ImageRambutan from "../components/imageRambutan"
 
 const RambutanPage = () => (
   <Layout>
-    <SEO title="Rambutan" />
     <h1>Rambutan</h1>
     <ImageRambutan />
     <br />
@@ -33,5 +32,7 @@ const RambutanPage = () => (
     <p><a target="_blank" rel="noopener noreferrer" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Rambutan">More info</a></p>
   </Layout>
 )
+
+export const Head = () => <SEO title="Rambutan" />
 
 export default RambutanPage

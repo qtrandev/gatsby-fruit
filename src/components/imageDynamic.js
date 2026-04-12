@@ -1,37 +1,31 @@
-import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-const DynamicImage = props => (
-  <StaticQuery
-    query={graphql`
-      query {
-        images: allFile {
-          edges {
-            node {
-              relativePath
-              name
-              childImageSharp {
-                fluid(maxWidth: 1200) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
+const DynamicImage = ({ filename, alt }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      images: allFile {
+        edges {
+          node {
+            relativePath
+            name
+            childImageSharp {
+              gatsbyImageData(width: 1200)
             }
           }
         }
       }
-    `}
-    render={data => {
-      const image = data.images.edges.find(n => {
-        return n.node.relativePath.includes(props.filename)
-      })
-      if (!image) {
-        return null
-      }
+    }
+  `)
 
-      return <Img alt={props.alt} fluid={image.node.childImageSharp.fluid} />
-    }}
-  />
-)
+  const imageNode = data.images.edges.find(n =>
+    n.node.relativePath.includes(filename)
+  )
+  if (!imageNode) return null
+
+  const image = getImage(imageNode.node)
+  return <GatsbyImage image={image} alt={alt} />
+}
 
 export default DynamicImage

@@ -6,13 +6,12 @@ import ImageMango from "../components/imageMango"
 
 const MangoPage = () => (
   <Layout>
-    <SEO title="Mango" />
     <h1>Mango</h1>
     <ImageMango />
     <br />
     <p>Mangoes can be found all over the world and have over 500 varieties!</p>
     <p>Scientific name: <a alt="Wikipedia" href="https://en.wikipedia.org/wiki/Mangifera_indica">Mangifera indica L.</a></p>
-    <p>All mango varieties can be found 
+    <p>All mango varieties can be found
       <a alt="Wikipedia mango cultivars" href="https://en.wikipedia.org/wiki/List_of_mango_cultivars"> here</a>.</p>
 
     <h3>Common Varieties:</h3>
@@ -60,5 +59,7 @@ const MangoPage = () => (
     <p><a target="_blank" rel="noopener noreferrer" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Mango">More info</a></p>
   </Layout>
 )
+
+export const Head = () => <SEO title="Mango" />
 
 export default MangoPage

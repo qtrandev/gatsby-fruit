@@ -5,7 +5,6 @@ import SEO from "../components/seo"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" />
     <h1>About</h1>
     <p>Finding fruits should be easy. We have the scoop on fruits!</p>
 
@@ -16,8 +15,9 @@ const AboutPage = () => (
     <a alt="Longan" href="https://pixabay.com/photos/longan-fruit-fresh-thailand-1290167/">https://pixabay.com/photos/longan-fruit-fresh-thailand-1290167/</a><br />
     <a alt="Rambutan"  href="https://pixabay.com/photos/rambutan-fruit-background-fresh-2477584/">https://pixabay.com/photos/rambutan-fruit-background-fresh-2477584/</a><br />
     <a alt="Sugar-apple" href="https://pixabay.com/photos/custard-leaves-tree-thailand-1549278/">https://pixabay.com/photos/custard-leaves-tree-thailand-1549278/</a><br />
-
   </Layout>
 )
+
+export const Head = () => <SEO title="About" />
 
 export default AboutPage

@@ -6,7 +6,6 @@ import ImageLongan from "../components/imageLongan"
 
 const LonganPage = () => (
   <Layout>
-    <SEO title="Longan" />
     <h1>Longan</h1>
     <ImageLongan />
     <br />
@@ -19,7 +18,7 @@ const LonganPage = () => (
       <li>Edau (EDAW)</li>
       <li>Champoo (Chompoo)</li>
       <li>Beau Kaew (Biew Kiew)</li>
-      <li>Wong’s Special</li>
+      <li>Wong's Special</li>
       <li>Seymour</li>
       <li>Degelman</li>
       <li>Tigers eye</li>
@@ -33,5 +32,7 @@ const LonganPage = () => (
     <p><a target="_blank" rel="noopener noreferrer" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Longan">More info</a></p>
   </Layout>
 )
+
+export const Head = () => <SEO title="Longan" />
 
 export default LonganPage

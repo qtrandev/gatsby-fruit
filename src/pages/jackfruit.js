@@ -6,7 +6,6 @@ import ImageJackfruit from "../components/imageJackfruit"
 
 const JackfruitPage = () => (
   <Layout>
-    <SEO title="Jackfruit" />
     <h1>Jackfruit</h1>
     <ImageJackfruit />
     <br />
@@ -33,5 +32,7 @@ const JackfruitPage = () => (
     <p><a target="_blank" rel="noopener noreferrer" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Jackfruit">More info</a></p>
   </Layout>
 )
+
+export const Head = () => <SEO title="Jackfruit" />
 
 export default JackfruitPage

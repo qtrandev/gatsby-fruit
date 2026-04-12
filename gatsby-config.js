@@ -5,7 +5,7 @@ module.exports = {
     author: `@qtrandev`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -6,7 +6,6 @@ import ImageSugarapple from "../components/imageSugarapple"
 
 const SugarapplePage = () => (
   <Layout>
-    <SEO title="Sugar-apple" />
     <h1>Sugar-apple</h1>
     <ImageSugarapple />
     <br />
@@ -24,5 +23,7 @@ const SugarapplePage = () => (
     <p><a target="_blank" rel="noopener noreferrer" alt="Wikipedia" href="https://en.wikipedia.org/wiki/Sugar-apple">More info</a></p>
   </Layout>
 )
+
+export const Head = () => <SEO title="Sugar-apple" />
 
 export default SugarapplePage
